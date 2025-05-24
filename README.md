@@ -22,36 +22,7 @@ https://drive.google.com/file/d/1HXFTdSIFYOGLVDKlwv_UYGKZ3-NwIG2G/view
 ## Trained model: 
 https://drive.google.com/file/d/1S2zfdgDEo7Vi8OSIP9Krz3gXvXO1JJ_c/view
 
-
 ---
-
-## 🔧 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/sports-tracking.git
-cd sports-tracking
-```
-
-### 2. Set Up Python Environment
-
-You can use `venv` or `conda` as you prefer. Here's an example using `venv`:
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-If you don't have a `requirements.txt`, you can install directly:
-
-```bash
 pip install ultralytics supervision opencv-python numpy pandas
 ```
 
@@ -140,9 +111,3 @@ This video includes:
 | pandas          | Ball interpolation and tracking data    |
 
 ---
-
-## 📎 Important Notes
-
-- Ensure `input_videos/08fd33_4.mp4` and `models/best.pt` exist before running the pipeline.
-- `video_utils.py` must contain `read_video()` and `save_video()` functions for video I/O.
-- `bbox_utils.py` provides utilities for bounding box analysis such as center, width, and foot position.

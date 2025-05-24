@@ -27,11 +27,6 @@ https://drive.google.com/file/d/1S2zfdgDEo7Vi8OSIP9Krz3gXvXO1JJ_c/view
 pip install ultralytics supervision opencv-python numpy pandas
 ```
 - Install the necessary libraries
-  
-- ultralytics: For YOLOv8 and other vision models.
--supervision: For video processing and object tracking utilities.
--opencv-python: For video/image processing (cv2 module).
--numpy and pandas: For numerical and tabular data manipulation.
 ---
 
 --upgrade: Ensures you get the latest compatible versions.

@@ -16,29 +16,12 @@ This project implements an end-to-end computer vision pipeline for analyzing spo
 - **Annotated Video Output with Visual Overlays**
 
 ---
+## input video: 
+https://drive.google.com/file/d/1HXFTdSIFYOGLVDKlwv_UYGKZ3-NwIG2G/view
 
-## 📂 Directory Structure
+## Trained model: 
+https://drive.google.com/file/d/1S2zfdgDEo7Vi8OSIP9Krz3gXvXO1JJ_c/view
 
-```
-.
-├── main.py                          # Entry point for the full tracking and analysis pipeline
-├── yolo_inference.py               # YOLO-only prediction script
-├── tracker.py                      # Main tracking class using YOLO and ByteTrack
-├── bbox_utils.py                   # Utility functions for bounding boxes and distance
-├── utils/
-│   ├── __init__.py                 # Imports for bbox and video utilities
-│   ├── bbox_utils.py               # Bounding box helper functions
-│   ├── video_utils.py              # Video read/write functions (not shown)
-├── models/
-│   └── best.pt                     # Trained YOLO model weights
-├── input_videos/
-│   └── 08fd33_4.mp4                # Input video to process
-├── output_videos/
-│   └── output_video.avi            # Output annotated video
-├── stubs/
-│   ├── track_stubs.pkl             # Precomputed object tracking (optional)
-│   └── camera_movement_stub.pkl   # Precomputed camera movement (optional)
-```
 
 ---
 

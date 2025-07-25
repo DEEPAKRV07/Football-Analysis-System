@@ -35,10 +35,11 @@ def main():
     #     frame = video_frames[0]
         
     #     #crop the bbox from the frame
-    #     cropped_frame = frame[bbox[1]:bbox[3], bbox[0]:bbox[2]]
+    #     cropped_frame = frame[int(bbox[1]):int(bbox[3]), int(bbox[0]):int(bbox[2])]
         
     #     # Save the cropped image
-    #     cv2.imwrite(f'output_videos/player_{track_id}.jpg', cropped_frame)
+    #     cv2.imwrite(f'output_videos/cropped_image.jpg', cropped_frame)
+          break
 
 
     # View Trasnformer

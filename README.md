@@ -67,6 +67,30 @@ The pipeline performs:
 
 ---
 
+## 📊 Model Training Results
+
+The YOLO model was trained on a custom football dataset for detecting:
+- Ball
+- Player
+- Goalkeeper
+- Referee
+
+### Training Curves
+
+<p align="center">
+  <img src="results.png" width="100%">
+</p>
+
+### Final Performance Metrics
+
+| Metric | Value |
+|-------|------|
+| Precision | 0.95 |
+| Recall | 0.75 |
+| mAP@50 | 0.81 |
+| mAP@50-95 | 0.58 |
+
+
 ## 🧰 Developer Notes
 
 - The YOLO model is loaded using:  
